@@ -21,12 +21,9 @@ public class Book {
         return this.year;
     }
 
-    public static void setYear(Book book, int year) {
-        book.year = year;
-    }
 
-//    public void setYear(int year) {
-//        this.year = year;
-//    }
+    public void setYear(int year) {
+        this.year = year;
+    }
 
 }
