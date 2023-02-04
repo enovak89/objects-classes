@@ -31,7 +31,6 @@ public class Author {
 
     @Override
     public int hashCode() {
-        return Objects.hash(this.lastName);
+        return Objects.hash(firstName, lastName);
     }
-
 }
